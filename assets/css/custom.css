@@ -1,0 +1,117 @@
+/* custom css*/
+/* swiper btn */
+
+.swiper-button-next::after {
+    font-size: 20px;
+    color: #fff;
+}
+
+.swiper-button-next:hover::after {
+    color: #008c96 !important;
+}
+.swiper-button-prev::after {
+    color: #008c96;
+    font-size: 20px;
+}
+.swiper-button-prev:hover {
+    background: #008c96;
+}
+.swiper-button-prev:hover::after {
+    color: #fff;
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: -52px;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.swiper-pagination-bullet {
+    height: 16px;
+    width: 16px;
+    background: #008c96;
+    opacity: 0.2;
+    display: inline-block;
+}
+.swiper-pagination-bullet-active {
+    outline: 1px solid #008c96;
+    outline-offset: 4px;
+    opacity: 1;
+}
+/* testimonial slider */
+.testimonial .swiper-button-prev::after,
+.testimonial .swiper-button-next::after {
+     font-size: 16px;
+}
+/* .testimonial .swiper-button-prev:hover,
+.testimonial .swiper-button-next:hover,
+ {
+    box-shadow: -2px 2px 2px 4px #0015180f;
+} */
+.testimonial .swiper-button-prev:hover::after {
+    color: #001518;
+}
+
+.testimonial .swiper-button-next:hover::after {
+  color: #001518; !important;
+}
+
+/* mobile menu */
+.mobileMenu {
+    transform: translateX(-450px);
+    transition: transform ease-in-out 0.4s;
+}
+.showMenu {
+    transform: translateX(0px);
+}
+.gray {
+    background: rgba(128, 128, 128, 0.769);
+}
+/* has children */
+.has-children {
+    position: relative;
+}
+.has-children .dropdownIcon {
+    position: absolute;
+    top: 47px;
+    right: 0px;
+    color: #001518;
+    font-size: 12px;
+}
+.has-children:hover .dropdownIcon {
+    color: #008c96;
+}
+.dropdown-menu {
+    position: absolute;
+    transform: scale(0);
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    top: 80%;
+    transform-origin: top;
+    transition: all ease-in-out 0.4s;
+    width: 230px;
+}
+.dropdown-menu li a {
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(255, 99, 71, 0.077);
+}
+.dropdown-menu li a:hover {
+    background: rgb(34, 34, 34);
+    color: #fff;
+}
+.has-children:hover .dropdown-menu {
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+    height: fit-content;
+}

@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payquad</title>
+    <!-- font work sans & Dm Sans -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+
+    <!-- main css (tailwind) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="absolute top-0 left-0 w-full">
+        <div class="container">
+            <div class="row items-center">
+                <div class="col-span-12 lg:col-span-3 xl:col-span-2">
+                    <div class="flex justify-between items-center mt-2 px-2">
+                        <!-- for responsive-->
+                        <!-- logo area -->
+                        <div class="flex items-center justify-center">
+                            <a href="#0">
+                                <img src="assets/img/header/logo.png" alt="logo" class="w-[100px] h-[32px] lg:w-full">
+                            </a>
+                        </div>
+                        <!-- menu bar icon -->
+                        <div class="lg:hidden menuIcon">
+                            <button type="button">
+                                <img src="assets/img/header/menu-bars.svg" alt="menubar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:block col-span-6 lg:col-span-9 xl:col-span-7">
+                    <!-- main menu -->
+                    <nav class="relative z-40">
+                        <ul class="flex justify-center">
+                            <li class="nav-item  has-children"><a href="#" class="nav-link">Home Style</a>
+                                <!-- dropdown menu -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html">Home Style 1</a></li>
+                                    <li><a href="#">Home Style 2</a></li>
+                                    <li><a href="#">Home Style 3 </a></li>
+                                    <li><a href="#">Home Style 4</a></li>
+                                    <li><a href="#">Home Style 5</a></li>
+                                  
+
+                                </ul>
+                            </li>
+                            <li class="nav-item  has-children "><a href="#" class="nav-link">Property Manager</a>
+                                <!-- dropdown menu -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">residents/Tenants</a></li>
+                                    <li><a href="#">Property Manager</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">blog</a></li>
+                                    <li><a href="#">support</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">support</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-span-3  hidden xl:block">
+                    <!-- call to action btn -->
+                    <div class="flex justify-end">
+                        <div class="mr-[23px]">
+                            <button type="button" class="btn btn-sm btn-primary">book a demo</button>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-md btn-secondary">sign in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- mobile slider menu -->
+    <div class="absolute top-0 left-0 z-40 min-h-screen min-w-[340px] bg-white shadow-largeShadow mobileMenu">
+        <div class=" flex justify-between items-center border-b border-secondary py-4">
+            <div class="pl-5">
+                <img src="assets/img/header/logo.png" class="w-28" alt="logo">
+            </div>
+            <div class="mr-10">
+                <div
+                    class="text-base text-white w-10 h-10 rounded-full ring-1 bg-slate-800 flex justify-center items-center hover:bg-cyan hover:text-white closeMenu ">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <nav class="mt-4">
+            <ul>
+                <li class="nav-item hover:bg-black hover:bg-opacity-5 px-5"><a href="#"
+                        class="nav-link">residents/Tenants</a></li>
+                <li class="nav-item hover:bg-black hover:bg-opacity-5 px-5"><a href="#" class="nav-link">Property
+                        Manager</a></li>
+                <li class="nav-item hover:bg-black hover:bg-opacity-5 px-5"><a href="#" class="nav-link">about</a></li>
+                <li class="nav-item hover:bg-black hover:bg-opacity-5 px-5"><a href="#" class="nav-link">blog</a></li>
+                <li class="nav-item hover:bg-black hover:bg-opacity-5 px-5"><a href="#" class="nav-link">support</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- button -->
+        <div class="flex justify-start mt-28 pl-5">
+            <div class="mr-[23px]">
+                <button type="button" class="btn btn-sm btn-primary">book a demo</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-md btn-secondary">sign in</button>
+            </div>
+        </div>
+    </div>
+    <!-- hero section start -->
+    <section class="bg-primary bg-opacity-[15%] pt-[138px] sm:pt-[140px] xl:pt-[145px] 2xl:pt-[206px] px-2 pb-16 xl:pb-20
+    ">
+        <div class="container">
+            <div class="relative">
+                <!-- left hero -->
+                <div class="row gap-8 items-center">
+                    <div class="col-span-12 lg:col-span-5   -mt-20 lg:-mt-0 ">
+                        <div>
+                            <h1 class="
+                            font-semibold text-[40px] leading-[48px] 
+                            mt-3 md:mt-0
+                            md:text-5xl md:leading-[60px]
+                            lg:text-6xl lg:leading-[74px]
+                            ">Property Management <span class="md:block"></span> Simplified</h1>
+                        </div>
+                        <div class="mt-3 sm:mt-3 md:mt-4 lg:mt-6 ">
+                            <p class="
+                            text-[15px] leading-[23px] pr-16
+                            md:text-2xl md:leading-8 text-text">Resident-centric tools to delight your tenants while
+                                driving management
+                                efficiencies.</p>
+                        </div>
+                        <div class="mt-11">
+                            <a href="#" class=" relative z-20
+                    button text-white bg-primary hover:bg-white hover:text-primary
+                                ">contact
+                                sales</a>
+                        </div>
+                    </div>
+                    <!-- right hero -->
+                    <div class="col-span-12 lg:col-span-7 relative -mt-28 md:-mt-10 ">
+                        <div class="grid grid-cols-2 gap-0 items-center">
+                            <div class="ml-16">
+                                <img src="assets/img/hero/man.png" alt="man" class="scale-125 2xl:scale-1">
+                            </div>
+                            <div class="-ml-12  md:-ml-0">
+                                <img src="assets/img/hero/mobileScreen.png"
+                                    class="scale-[0.6] sm:scale-[0.7] md:scale-100" alt="mobile screen">
+                            </div>
+                        </div>
+                        <div class="absolute top-16 -left-48 
+                            sm:top-36 sm:-left-40
+                            md:top-56 lg:top-44  xl:-left-56 
+                            2xl:top-56 2xl:-left-48">
+                            <img src="assets/img/hero/graph-1.png" alt="graph"
+                                class="scale-[0.4] sm:scale-50 md:scale-75 lg:scale-50 2xl:scale-100">
+                        </div>
+                    </div>
+                </div>
+                <!-- block -->
+
+                <div class="absolute bottom-20 
+                    sm:bottom-28 -right-14 
+                    md:-right-20 md:bottom-10
+                    lg:-right-20 2xl:bottom-16
+                    ">
+                    <img src="assets/img/hero/block-1.png" alt="block" class="scale-50 md:scale-75 2xl:scale-100">
+                </div>
+                <div class="absolute top-44 
+                    -right-8 
+                     md:top-72 md:-right-12
+                    lg:-right-12 lg:-top-10 
+                    xl:-right-24 
+                    2xl:-right-12 2xl:top-0">
+                    <img src="assets/img/hero/block-2.png" class="scale-[0.7] md:scale-100 lg:scale-100" alt="block">
+                </div>
+            </div>
+            <!-- counter section -->
+            <div class="-mt-12 md:mt-0 lg:mt-14">
+                <div class="grid grid-cols-2 lg:flex gap-[13px]">
+                    <!-- counter item -->
+                    <div class="bg-white flex flex-col items-center lg:py-7 lg:px-[45px] rounded-xl justify-center">
+                        <div>
+                            <img src="assets/img/counter/icon-1.svg" alt="icon">
+                        </div>
+                        <div class="mt-4 lg:mt-6 text-center">
+                            <h2 class="
+                            font-medium text-[32px] leading-7 
+                            lg:text-5xl
+                            xl:text-7xl lg:leading-[48px] text-cyan
+                            ">161</h2>
+                            <p
+                                class="font-normal text-base leading-7 lg:text-lg lg:leading-[48px] text-textLight mt-1 lg:mt-2 capitalize">
+                                Cities</p>
+                        </div>
+                    </div>
+
+                    <!-- counter item -->
+                    <div class="bg-white flex flex-col items-center lg:py-7 lg:px-[45px] rounded-xl justify-center">
+                        <div class="pt-2">
+                            <img src="assets/img/counter/icon-2.svg" alt="icon">
+                        </div>
+                        <div class="mt-3 lg:mt-6 text-center">
+                            <h2 class="
+                            font-medium text-[32px] leading-7 
+                            lg:text-5xl
+                            xl:text-7xl lg:leading-[48px] text-cyan
+                            ">2,014</h2>
+                            <p class="font-normal text-lg leading-[48px] text-textLight mt-1 lg:mt-2 capitalize">
+                                properties</p>
+                        </div>
+                    </div>
+                    <!-- counter item -->
+                    <div class="bg-white flex flex-col items-center lg:py-7 lg:px-2 rounded-xl justify-center">
+                        <div>
+                            <img src="assets/img/counter/icon-3.svg" alt="icon">
+                        </div>
+                        <div class="mt-4 lg:mt-6 text-center">
+                            <h2 class="
+                            font-medium text-[32px] leading-7 
+                            lg:text-4xl
+                            xl:text-7xl xl:leading-[48px] text-cyan
+                            ">$1 Billion</h2>
+                            <p class="font-normal text-lg leading-[48px] text-textLight mt-1 lg:mt-2 capitalize">
+                                processed</p>
+                        </div>
+                    </div>
+                    <!-- counter item -->
+                    <div
+                        class="bg-white flex flex-col items-center py-4 lg:py-7 lg:px-[45px] rounded-xl justify-center">
+                        <div>
+                            <img src="assets/img/counter/icon-4.svg" alt="icon">
+                        </div>
+                        <div class="mt-4 lg:mt-6 text-center">
+                            <h2 class="
+                            font-medium text-[32px] leading-7 
+                            lg:text-5xl
+                            xl:text-7xl lg:leading-[48px] text-cyan
+                            ">27000+</h2>
+                            <p class="font-normal  text-lg lg:leading-[48px] text-textLight mt-2 capitalize">support
+                                requests handled</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+    <!-- brands section start -->
+    <section class="py-8 px-6 sm:py-10 lg:py-[90px]">
+        <div class="container">
+            <div class="grid grid-cols-1">
+
+                <div>
+                    <h2 class="text-center font-semibold text-2xl 
+                        sm:text-3xl sm:leading-10
+                        leading-8 lg:text-[40px] lg:leading-[60px] text-cyan">
+
+                        Trusted By Leading <span class="block md:inline-block"></span>
+                        Property Managers</h2>
+                </div>
+                <div class="pt-8">
+                    <ul class="grid grid-cols-3 lg:flex lg:justify-between  gap-20 sm:gap-12 items-center brandsSlider">
+                        <li><img src="assets/img/brand/logo-1.png" alt="logo"></li>
+                        <li><img src="assets/img/brand/logo-2.png" alt="logo"></li>
+                        <li><img src="assets/img/brand/logo-3.png" alt="logo"></li>
+                        <li><img src="assets/img/brand/logo-4.png" alt="logo"></li>
+                        <li><img src="assets/img/brand/logo-5.png" alt="logo"></li>
+                        <li><img src="assets/img/brand/logo-6.png" alt="logo"></li>
+                        <li class="hidden"><img src="assets/img/brand/logo-7.png" alt="logo"></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- brands section end -->
+    <!-- property management start -->
+    <section class="bg-redBlue py-8 sm:py-10 lg:pt-16 lg:pb-[120px]">
+        <div class="container">
+            <div class="grid grid-cols-1">
+                <div class="text-center mb-7">
+                    <div>
+                        <!-- section title -->
+                        <h2 class="
+                            font-semibold text-[28px] leading-8 
+                            sm:text-4xl sm:leading-10
+                            lg:leading-[60px] text-cyan capitalize
+                            
+                            ">Win at property <span class="block lg:inline"></span>
+                            management</h2>
+                    </div>
+                    <!-- section sub title -->
+                    <div class="mt-3 sm:mt-6 xl:mt-4">
+                        <p class="text-tiny leading-[23px] lg:text-2xl lg:leading-8 text-textLight">
+                            Streamline day-to-day tasks, increase operational <span class="sm:block"></span> efficiency
+                            and <span class="md:block lg:inline"></span> achieve your business
+                            goals.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- button  -->
+            <div class="grid grid-cols-12 items-center gap-1 px-4 md:mt-4 lg:space-x-4 ">
+                <div class="mb-4 col-span-12 lg:col-span-4">
+                    <button type="button" class="bg-primary  py-2 pl-2  rounded-[55px] w-full mt-2 ">
+                        <div class="flex items-center">
+                            <span class="icon bg-white mr-3.5">
+                                <img src="assets/img/property/hand.svg" class="w-8 h-8" alt="property">
+                            </span>
+                            <span
+                                class="block font-semibold leading-[26px] text-lg lg:leading-7 xl:text-xl 2xl:text-[31px] 2xl:leading-[26px] text-white">
+                                Property Managers
+                            </span>
+                        </div>
+                    </button>
+                </div>
+                <div class="order-1 my-3 lg:order-0 col-span-12 lg:col-span-4">
+                    <button type="button"
+                        class="bg-orange bg-opacity-5  py-7 rounded-tr-[20px] rounded-tl-[20px] w-full ">
+                        <span
+                            class="block font-medium text-lg xl:text-[31px] leading-[26px] lg:text-xl lg:leading-7 2xl:text-[31px] 2xl:leading-[26px] text-orange">
+                            Principal Stakeholders
+                        </span>
+                    </button>
+                </div>
+                <div class="order-2 my-3 lg:order-1 col-span-12 lg:col-span-4">
+                    <button type="button"
+                        class="bg-cyan  bg-opacity-5  py-7 rounded-tr-[20px] rounded-tl-[20px] w-full ">
+                        <span
+                            class="block font-medium text-xl xl:text-[31px] leading-[26px] lg:text-xl lg:leading-7 2xl:text-[31px] 2xl:leading-[26px] text-cyan">
+                            Leasing Managers
+                        </span>
+                    </button>
+                </div>
+                <div class="col-span-12 order-1 lg:mt-5">
+                    <div class="lg:grid lg:grid-cols-12 ">
+                        <div class="lg:col-span-4 lg:mt-10">
+                            <div>
+                                <button type="button"
+                                    class="bg-magenta py-[13px] px-[18px] rounded-[55px] border-2 border-magentaTwo w-full">
+                                    <span
+                                        class="font-semibold text-base xl:text-2xl lg:text-xl lg:leading-6 leading-[26px] text-cyan capitalize">Automate
+                                        mundane
+                                        tasks</span>
+                                </button>
+                            </div>
+                            <div>
+                                <button type="button"
+                                    class="mt-4 py-[13px] px-[18px] rounded-[55px] border-2 border-magentaTwo w-full">
+                                    <span
+                                        class="font-semibold text-lg xl:text-2xl leading-[26px] lg:text-xl lg:leading-6 text-cyan capitalize">Effortless
+                                        payments</span>
+                                </button>
+                            </div>
+                            <div>
+                                <button type="button"
+                                    class="mt-4 py-[13px] px-[18px] rounded-[55px] border-2 border-magentaTwo w-full">
+                                    <span
+                                        class="font-semibold text-lg xl:text-2xl leading-[26px] lg:text-xl lg:leading-6 text-cyan capitalize">Seamless
+                                        Integrations</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- main content -->
+
+                        <div class="bg-white py-8 lg:mx-6 lg:px-6 rounded-lg mt-5 lg:col-span-8 ">
+                            <div class="2xl:grid 2xl:grid-cols-12">
+                                <div class="2xl:col-span-7 px-5">
+                                    <div>
+                                        <h2 class="font-semibold text-[28px] leading-8 capitalize text-cyan
+                            lg:text-[40px] lg:leading-[47px]">Automate
+                                            mundane tasks</h2>
+                                    </div>
+                                    <div class="mt-2 lg:mt-4">
+                                        <p class="text-base leading-6 lg:text-[20px] lg:leading-7 text-textLight">Day to
+                                            day
+                                            operations are a breeze
+                                            with our suite of management tools that help
+                                            you
+                                            stay on top of maintenance requests,
+                                            improve tenant communications, and a seamless community.</p>
+                                    </div>
+                                    <div class="mt-7">
+                                        <button type="button" class="block py-[14px] px-[34px] font-medium text-base leading-6 text-white capitalize bg-primary rounded-[355px]
+                            border border-transparent
+                                hover:bg-white hover:text-cyan  hover:border-primary  
+                            ">see
+                                            more</button>
+                                    </div>
+                                </div>
+                                <div class="2xl:col-span-5">
+                                    <div>
+                                        <img src="assets/img/property/img-1.png" alt="image" class="object-cover">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- property management end -->
+    <!-- what we do -->
+    <section class="bg-white pb-12 lg:pt-11 lg:pb-20 2xl:pt-[67px] 2xl:pb-[130px]">
+        <div class="container lg:px-[50px]">
+            <div class="flex flex-col items-center">
+                <!-- section top start -->
+                <div class="text-center pt-12">
+                    <div>
+                        <!-- title -->
+                        <h2 class="font-semibold text-[28px] text-cyan leading-8 capitalize first-letterfirst-line
+                      lg:text-[40px] lg:leading-[50px]
+                        xl:text-56 xl:leading-[64px]">what we do</h2>
+                    </div>
+                    <div class="mt-3">
+                        <!-- subtitle -->
+                        <p class="text-textLight leading-6
+                        lg:text-lg lg:leading-6
+                        xl:text-[24px] xl:leading-8">Luctus laoreet primis tempor tristique elementum dignissim morbi
+                            suspendisse.</p>
+                    </div>
+                </div>
+                <!-- section top end -->
+                <!-- section content box start -->
+                <div class="h-[609px] w-[367px] sm:w-[600px] sm:h-[600px] lg:w-[960px]  lg:h-[750px] xl:w-[100%] 2xl:h-[800px]
+                    mt-8 2xl:mt-[84px] ct-border center-items ">
+                    <!-- inner-box -->
+                    <div
+                        class="ct-border h-[540px]  w-[326px] sm:w-[540px] sm:h-[540px] lg:w-[800px] lg:h-[700px] xl:w-[1000px] 2xl:w-[1156px] 2xl:h-[710px] center-items shadow-curve">
+                        <!-- wrapper-box (invisible)  -->
+                        <div
+                            class="w-[323px] h-[467px] sm:w-[500px]  border-primary 2xl:h-[638px] 2xl:w-[956px]   center-items ">
+
+                            <div class="w-[229px] h-[372px] 2xl:w-[810px] 2xl:h-[488px]  relative">
+                                <!--  tablet -->
+                                <div class="hidden sm:block xl:hidden absolute -top-4 -left-12 dashed h-[380px] w-[320px] 
+                                lg:h-[470px] lg:w-[500px] lg:-left-[150px] lg:-top-[50px]
+                                "></div>
+                                <div class="sm:hidden">
+                                    <svg width="auto" height="auto" viewBox="0 0 229 372" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.996094" y="0.971191" width="227.318" height="370.49" rx="113.659"
+                                            stroke="#008C96" stroke-dasharray="8 8" />
+                                    </svg>
+                                </div>
+                                <div class="hidden xl:block absolute -top-[80px] -left-[300px] 2xl:-top-0 2xl:-left-0">
+                                    <svg width="810" height="488" viewBox="0 0 810 488" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="809" height="487" rx="243.5" stroke="#008C96"
+                                            stroke-dasharray="8 8" />
+                                    </svg>
+                                </div>
+
+                                <!-- clickable icon items -->
+                                <div class="content-box ">
+                                    <!-- single item icon crm -->
+                                    <div class="item cursor-pointer absolute -top-11 left-[56px] 
+                                    sm:-top-16 lg:-top-32
+                                    xl:-top-36
+                                    2xl:left-[320px] 2xl:-top-[72px]" data-target="crm">
+                                        <div class="flex flex-col items-center cursor-pointer relative">
+                                            <div
+                                                class="py-2 px-3 
+                                          2xl:w-[100px] 2xl:h-[81px] flex justify-center rounded-md shadow-largeShadow">
+                                                <img class="lg:w-[75px] lg:h-[67px]"
+                                                    src="assets/img/whatWeDo/icon-1.svg" alt="icon">
+                                            </div>
+                                            <div
+                                                class="flex flex-col items-center text-base lg:text-[22px] sm:text-lg sm:mt-1 lg:mt-2 text-primary font-semibold capitalize">
+                                                <span>Lead to</span>
+                                                <span>Lease CRM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item icon reports -->
+                                    <div class="item cursor-pointer absolute 
+                                    lg:-left-[190px] lg:top-0
+                                    xl:-left-[260px] xl:-top-12
+                                    top-11 -left-7 sm:-left-20 2xl:top-0 2xl:left-11
+                                    " data-target="reports">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="py-2 px-3 rounded-md flex justify-center 2xl:w-[100px] 2xl:h-[81px] shadow-largeShadow">
+                                                <img class="lg:w-[57px] lg:h-[57px]"
+                                                    src="assets/img/whatWeDo/icon-2.svg" alt="icon">
+                                            </div>
+                                            <div
+                                                class=" text-base sm:text-lg sm:mt-1 lg:mt-2 2xl:mt-2.5 2xl:text-[22px] text-primary font-semibold capitalize">
+                                                <span>reports</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item icon Maintenance -->
+                                    <div class="item cursor-pointer
+                                    absolute top-40 -left-[50px] 
+                                    sm:top-48 sm:-left-[105px]
+                                    lg:top-44 lg:-left-[205px]
+                                    xl:top-36 xl:-left-[355px]
+                                    2xl:top-48 2xl:-left-[70px]" data-target="maintainance">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="py-2 px-3 center-items rounded-md 2xl:w-[100px] 2xl:h-[80px] shadow-largeShadow">
+                                                <img class="lg:w-[57px] lg:h-[57px]"
+                                                    src="assets/img/whatWeDo/icon-3.svg" alt="icon">
+                                            </div>
+                                            <div
+                                                class="text-base sm:text-lg sm:mt-1 lg:mt-2 2xl:mt-2.5 2xl:text-[22px] text-primary font-semibold capitalize">
+                                                <span>Maintenance</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item icon payments -->
+                                    <div class="item cursor-pointer absolute 
+                                    bottom-3 -left-5 
+                                    lg:-left-[150px] lg:-bottom-[80px]
+                                    sm:-bottom-7 sm:-left-12
+                                    xl:-left-[200px
+                                    2xl:-bottom-11 2xl:left-28
+                                    " data-target="payment">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="py-2 px-3 center-items rounded-md 2xl:w-[100px] 2xl:h-[80px] shadow-largeShadow">
+                                                <img class="lg:w-[57px] lg:h-[57px] "
+                                                    src="assets/img/whatWeDo/icon-4.svg" alt="icon">
+                                            </div>
+                                            <div
+                                                class="text-base sm:text-lg lg:mt-2 sm:mt-1 2xl:text-[22px] 2xl:mt-2.5 text-primary font-semibold capitalize">
+                                                <span>Payments</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item icon communication -->
+                                    <div class="item cursor-pointer absolute 
+                                    sm:-bottom-[46px]
+                                    lg:-bottom-[110px] lg:left-12
+                                    -bottom-[70px] left-20
+                                     2xl:left-[380px] 2xl:-bottom-[70px]" data-target="communication">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="py-2 px-3 center-items rounded-md 2xl:w-[100px] 2xl:h-[80px] shadow-largeShadow">
+                                                <img class="lg:w-[57px] lg:h-[57px]"
+                                                    src="assets/img/whatWeDo/icon-5.svg" alt="icon">
+                                            </div>
+                                            <div
+                                                class="text-base sm:text-lg sm:mt-1 lg:mt-2 2xl:text-[22px] 2xl:mt-2.5 text-primary font-semibold capitalize">
+                                                <span>Communic<span class="block sm:inline-block"></span>ation</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item icon community -->
+                                    <div class="item cursor-pointer absolute 
+                                    sm:-right-[95px]
+                                    lg:-right-[165px]
+                                    -right-11 bottom-14 2xl:-right-4
+                                    xl:-right-[310px]
+                                    " data-target="community">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="py-2 px-3 center-items rounded-md 2xl:w-[100px] 2xl:h-[80px] shadow-largeShadow">
+                                                <img class="lg:w-[57px] lg:h-[57px]"
+                                                    src="assets/img/whatWeDo/icon-6.svg" alt="icon">
+                                            </div>
+                                            <div
+                                                class="text-base sm:text-lg sm:mt-1 lg:mt-2 2xl:text-[22px] 2xl:mt-2.5 text-primary font-semibold capitalize">
+                                                <span>Community</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item icon portals -->
+                                    <div class="item cursor-pointer absolute
+                                     -right-10 top-7 
+                                     lg:-right-44
+                                     sm:-right-20
+                                     xl:-right-[280px] 
+                                     xl:-top-8
+                                     2xl:right-[5px] 2xl:top-5
+                                     " data-target="portals">
+                                        <div class="flex flex-col  items-center">
+                                            <div
+                                                class="py-2 px-3 center-items rounded-md 2xl:w-[100px] 2xl:h-[80px] shadow-largeShadow">
+                                                <img class="lg:w-[57px] lg:h-[57px]"
+                                                    src="assets/img/whatWeDo/icon-7.svg" alt="icon">
+                                            </div>
+                                            <div
+                                                class="text-center text-base sm:text-lg sm:mt-1 2xl:capitalize 2xl:text-[22px] 2xl:mt-2.5 text-primary font-semibold ">
+                                                <span>Resident <span class="block 2xl:inline-block"></span> and <span
+                                                        class="2xl:block"></span> Tenant <span
+                                                        class="block 2xl:inline-block"></span> Portals</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- content box -->
+                                <div
+                                    class="w-[165px] h-[240px] 
+                                    sm:w-[200px] sm:h-[260px] sm:left-2
+                                    lg:w-[290px] lg:h-[350px] lg:-left-12 lg:top-6
+                                    xl:w-[584px] xl:h-[314px] xl:-left-[180px]
+                                     bg-lightPurple  shadow-largeShadow absolute top-16 left-8 2xl:top-20 2xl:left-20 ct-border border-2 border-deepborder ">
+
+                                    <!-- all content -->
+                                    <div class="max-w-[115px] xl:max-w-[315px] h-auto  ">
+                                        <!-- single content crm -->
+                                        <div class="content show" data-content="crm">
+                                            <div class="content-text">
+                                                <p>Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                                                    suspendisse tempor liberomu risus nibh eget platea
+                                                    CRM</p>
+                                            </div>
+                                            <div class="mt-4 flex justify-center ">
+                                                <img src="assets/img/whatWeDo/logo.png" alt="logo">
+                                            </div>
+                                        </div>
+                                        <!-- single content reports -->
+                                        <div class="content" data-content="reports">
+                                            <div class="content-text">
+                                                <p>Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                                                    suspendisse tempor liberomu risus nibh eget platea
+                                                    Reports</p>
+                                            </div>
+                                            <div class="mt-4 flex justify-center">
+                                                <img src="assets/img/whatWeDo/logo.png" alt="logo">
+                                            </div>
+                                        </div>
+                                        <!-- single content mainainance -->
+                                        <div class="content" data-content="maintainance">
+                                            <div class="content-text">
+                                                <p>Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                                                    suspendisse tempor liberomu nibh eget platea
+                                                    maintainance</p>
+                                            </div>
+                                            <div class="mt-4 flex justify-center">
+                                                <img src="assets/img/whatWeDo/logo.png" alt="logo">
+                                            </div>
+                                        </div>
+                                        <!-- single content payment -->
+                                        <div class="content " data-content="payment">
+                                            <div class="content-text">
+                                                <p>Vitae tortor consequat lacinia nunc sodales potenti cras
+                                                    suspendisse tempor liberomu risus nibh eget platea payment
+                                                </p>
+                                            </div>
+                                            <div class="mt-4 flex justify-center">
+                                                <img src="assets/img/whatWeDo/logo.png" alt="logo">
+                                            </div>
+                                        </div>
+
+                                        <!-- single content communication -->
+                                        <div class="content" data-content="communication">
+                                            <div class="content-text">
+                                                <p>Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                                                    suspendisse tempor liberomu risus nibh eget communication
+                                                </p>
+                                            </div>
+                                            <div class="mt-4 flex justify-center">
+                                                <img src="assets/img/whatWeDo/logo.png" alt="logo">
+                                            </div>
+                                        </div>
+                                        <!-- single content community -->
+                                        <div class="content" data-content="community">
+                                            <div class="content-text">
+                                                <p>Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                                                    suspendisse tempor liberomu risus nibh eget community
+                                                </p>
+                                            </div>
+                                            <div class="mt-4 flex justify-center">
+                                                <img src="assets/img/whatWeDo/logo.png" alt="logo">
+                                            </div>
+                                        </div>
+                                        <!-- single content portals -->
+                                        <div class="content" data-content="portals">
+                                            <div class="content-text">
+                                                <p>Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                                                    suspendisse tempor liberomu risus nibh eget portals
+                                                    justo</p>
+                                            </div>
+                                            <div class="mt-4 flex justify-center">
+                                                <img src="assets/img/whatWeDo/logo.png" alt="logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- section content box end -->
+            </div>
+        </div>
+        <!-- dashed svg -->
+
+    </section>
+
+    <!-- Exprience -->
+    <section class="bg-smoky bg-opacity-70 py-8 md:pt-16 md:pb-0 xl:pt-[100px] xl:pb-[100px]">
+        <div class="container">
+            <!-- top -->
+            <div class="grid grid-cols-12
+             items-center">
+                <div class="col-span-12 lg:col-span-8">
+                    <div>
+                        <h2 class="
+                        font-semibold 
+                        text-[28px] leading-[34px]
+                        md:text-4xl
+                        xl:text-56 text-cyan
+                         xl:leading-[60px] capitalize
+                         ">Elevate the tenant
+                            experience
+                        </h2>
+                    </div>
+                    <div class="mt-7">
+                        <p class="
+                        text-base leading-6
+                        md:text-xl
+                        xl:text-2xl xl:leading-8 text-textLight">
+                            A simple, secure, and convenient online experience that makes for happy tenants.
+                            Modernize how you track, manage and
+                            communicate with tenants to boost efficiency and increase retention.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-4">
+                    <div class="text-center xl:text-end mt-5 md:mt-8">
+                        <button type="button" class="
+                             py-[14px] px-[34px] font-medium text-base 
+                             leading-6 text-white capitalize bg-primary
+                             rounded-[355px] ring-2
+                             hover:bg-white
+                              hover:text-primary">see
+                            more
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-12 xl:gap-[35px] mt-9 lg:mt-12 xl:mt-24">
+                <div class="col-span-12 lg:col-span-6 ">
+                    <div class="relative">
+                        <div class="mr-4">
+                            <img src="assets/img/exprience/exprience.png" class="max-w-full " alt="exprience">
+                        </div>
+                        <div class="absolute right-4 -bottom-3 lg:-bottom-9">
+                            <div class="bg-white rounded-lg text-center shadow-iconBoxShadow py-3 px-5 md:py-5 md:px-8">
+                                <!-- icons -->
+                                <div class="text-redOrange text-xl mt-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star text-gray-300"></i>
+                                </div>
+                                <div class="mt-1 lg:mt-3">
+                                    <h4 class="font-semibold text-lg md:xl lg:text-2xl ">4.9 out of 5 stars</h4>
+                                </div>
+                                <div class="mt-1">
+                                    <p class="text-sm text-textLight ">From 835 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-6 ">
+                    <!-- icon box -->
+                    <div>
+                        <ul>
+                            <!-- icon item -->
+                            <li class="bg-white py-8 px-5 lg:px-10">
+                                <div class="flex">
+                                    <div class="block mr-[18px]">
+                                        <div
+                                            class="bg-orange  w-10 h-10 md:h-[70px] md:w-[70px] flex items-center justify-center rounded-full">
+                                            <!-- icon -->
+                                            <img src="assets/img/exprience/thumb.svg" alt="thumb"
+                                                class="scale-50 md:scale-100">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <!-- desc -->
+                                        <div>
+                                            <h4
+                                                class="font-medium capitalize text-xl leading-6 md:text-2xl
+                                                  xl:text-[31px] xl:leading-[36px] text-cyan">
+                                                Simple
+                                                user experience</h4>
+                                        </div>
+                                        <div class="mt-5">
+                                            <p class="text-textLight text-base leading-6 lg:text-xl lg:leading-7">Simple
+                                                to use
+                                                and designed to be accessible to anyone. We work harder so
+                                                tenants don't have to, and are there to provide
+                                                front-of-the-line assistance for users when tenants need help.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- icon item -->
+                            <li class="mt-10">
+                                <div class="flex mt-4">
+                                    <div class="block mr-[18px]">
+                                        <div
+                                            class="bg-primary  h-10 w-10 md:h-[70px] md:w-[70px] flex items-center justify-center rounded-full">
+                                            <!-- icon -->
+                                            <img src="assets/img/exprience/home.svg" alt="exprience"
+                                                class="scale-50 md:scale-100">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <!-- desc -->
+                                        <div>
+                                            <h4
+                                                class="font-medium capitalize text-xl
+                                                 md:text-2xl leading-6 xl:text-[31px] xl:leading-[36px]
+                                                  text-cyan">
+                                                Concienvence for tenants</h4>
+                                        </div>
+                                        <div class="mt-4">
+                                            <p class="text-textLight text-base leading-6 lg:text-xl lg:leading-7">Create
+                                                an
+                                                unparalleled resident experience that can be accessed at any time.
+                                                Providing online payments, communications,
+                                                and bookings that leads to happier tenants and higher retention rates.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- icon item -->
+                            <li class="py-8  mb-12">
+                                <div class="flex mt-4">
+                                    <div class="block mr-[18px]">
+                                        <div
+                                            class="bg-cyan h-10 w-10 md:h-[70px] md:w-[70px] flex items-center justify-center rounded-full">
+                                            <!-- icon -->
+                                            <img src="assets/img/exprience/gear.svg" alt="thumb"
+                                                class="scale-50 md:scale-100">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <!-- desc -->
+                                        <div>
+                                            <h4
+                                                class="font-medium capitalize text-xl leading-6 md:text-2xl  
+                                                xl:text-[31px] xl:leading-[36px] text-cyan">
+                                                Leading
+                                                app engagement</h4>
+                                        </div>
+                                        <div class="mt-4">
+                                            <p class="text-textLight text-base leading-6 lg:text-xl lg:leading-7">
+                                                Experience the
+                                                ease of dealing with our expert deployment and engagement teams to
+                                                ensure a smooth rollout and high
+                                                tenant adoption.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- customer review (testimonial) -->
+    <section class="pt-12 sm:pt-16 sm:pb-5  md:pt-16 lg:py-20 xl:pt-[110px] xl:pb-16">
+        <div class="container">
+            <div class="grid grid-cols-12 xl:px-12">
+                <div class="col-span-12">
+                    <div class="mb-16 md:mb-20">
+                        <h2 class="text-center font-semibold text-[28px]
+                             sm:text-4xl leading-8 lg:text-56 
+                             lg:leading-[60px]
+                             text-cyan capitalize
+                             ">
+                            Customer
+                            Stories</h2>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-5">
+                    <div class="relative xl:pl-16">
+                        <img src="assets/img/testimonial/testimonial-1.png" alt="testimonial"
+                            class="max-w-full md:scale-110">
+                        <div class="absolute -top-8 left-3 md:left-20 md:-top-12 lg:left-8">
+                            <!-- quote -->
+                            <div
+                                class="text-white bg-orange scale-75 md:scale-1 lg:scale-1  h-[85px] w-[87px] flex justify-center items-center rounded-[3px]">
+                                <svg width="45" height="33" viewBox="0 0 45 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.9027 1.06853C20.5274 4.97274 20.8397 8.48652 20.8397 11.6099C20.8397 18.6895 19.2 23.8691 15.9204 27.1486C12.5368 30.4282 7.38324 32.0679 0.459782 32.0679L0.459782 23.4787L0.381699 23.4006C1.57899 23.4006 2.56805 23.3225 3.3489 23.1663C4.23385 23.0102 4.9366 22.7499 5.45717 22.3855C5.92567 22.0211 6.34212 21.6307 6.70651 21.2142C7.01885 20.8498 7.2531 20.2772 7.40927 19.4964C7.56544 18.7155 7.64352 18.0388 7.64352 17.4662C7.69558 17.1018 7.7216 16.2949 7.7216 15.0456L0.459783 15.0456L0.459784 1.06853L19.9027 1.06853ZM43.9526 0.99045C44.5773 4.89466 44.8897 8.40844 44.8897 11.5318C44.8896 18.6114 43.2239 23.791 39.8923 27.0705C36.6127 30.3501 31.4592 31.9898 24.4316 31.9898L24.4316 23.3225C25.5768 23.3225 26.5659 23.2444 27.3988 23.0883C28.3358 22.9321 29.0125 22.6718 29.429 22.3074C30.0537 21.8389 30.4701 21.4485 30.6783 21.1362C30.9907 20.7718 31.2249 20.1991 31.3811 19.4183L31.6934 17.3881L31.6934 14.9675L24.5097 14.9675L24.5097 0.990448L43.9526 0.99045Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-[105px] lg:-left-10 -z-10">
+                            <img src="assets/img/testimonial/block-1.png" class="w-full" alt="block">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-7 relative ">
+                    <div class="absolute  lg:-left-5 lg:-top-5">
+                        <img src="assets/img/testimonial/block-2.png" alt="block">
+                    </div>
+                    <div class="mt-20 lg:mt-14">
+                        <!-- testimonials -->
+                        <div>
+
+                            <div
+                                class="shadow-testimonialShadow relative py-8 px-[26px] lg:px-10  bg-white shadow-white">
+                                <!-- slider controler -->
+                                <div class="testimonial">
+                                    <div class="swiper-button-prev
+                                      w-8 h-8 md:w-[58px] md:h-[58px]
+                                     bg-secondary rounded-full hover:ring-1
+                                      hover:ring-primary
+                                       md:left-[80%] lg:-top-10  top-12 
+                                       left-[75%]
+                                       sm:left-[80%]
+                                       lg:left-[73%]
+                                       xl:left-[78%]
+                                    "></div>
+                                    <div class="swiper-button-next 
+                                    hover:ring-1 hover:ring-primary hover:bg-white
+                                     bg-primary w-8 h-8 md:w-[58px] md:h-[58px] rounded-full lg:-top-10
+                                     top-12 right-5
+                                     "></div>
+                                </div>
+                                <div class="swiper mt-5 h-[450px] testimonialSlider">
+                                    <div class="swiper-wrapper  ">
+                                        <!-- single item -->
+                                        <div class="swiper-slide">
+                                            <div>
+                                                <h3
+                                                    class="font-medium text-2xl  lg:text-[31px] lg:leading-[36px] text-cyan capitalize">
+                                                    Mei
+                                                    Huchinson</h3>
+                                            </div>
+                                            <div class="mt-2">
+                                                <p
+                                                    class="text-xl leading-[26px] lg:text-2xl lg:leading-7 text-cyan capitalize">
+                                                    Senior Manager - Medallion Corporation
+                                                </p>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <p
+                                                    class="font-normal text-base leading-6 
+                                                    xl:text-xl lg:leading-7
+                                                     text-textLight">
+                                                    “I
+                                                    couldn't recommend
+                                                    Payquad strongly enough. Having spent most of my career in tenant
+                                                    management
+                                                    systems and
+                                                    implementations, the Payquad team has truly stepped up to the
+                                                    challenge.
+                                                    From
+                                                    the excellent user interface to the
+                                                    knowledgeable support team that supports not just management staff,
+                                                    but
+                                                    tenants
+                                                    too. I am always impressed by the
+                                                    alacrity by which the Payquad development team attends to the needs
+                                                    of
+                                                    their
+                                                    clients.”</p>
+                                            </div>
+                                            <div class="mt-10 lg:mt-5 xl:mt-16">
+                                                <button type="button" class=" z-10 relative
+                                        py-[14px] px-[34px] font-medium text-base leading-6 text-white capitalize bg-primary rounded-[355px]
+                                        hover:bg-white hover:text-primary hover:ring-1 hover:ring-primary
+                                        ">Read
+                                                    Story</button>
+                                            </div>
+                                        </div>
+
+                                        <!-- single item -->
+                                        <div class="swiper-slide">
+                                            <div>
+                                                <h3
+                                                    class="font-medium text-2xl  lg:text-[31px] lg:leading-[36px] text-cyan capitalize">
+                                                    Mei
+                                                    Huchinson</h3>
+                                            </div>
+                                            <div class="mt-2">
+                                                <p
+                                                    class="text-xl leading-[26px] lg:text-2xl lg:leading-7 text-cyan capitalize">
+                                                    Senior Manager - Medallion Corporation
+                                                </p>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <p
+                                                    class="font-normal text-base leading-6 
+                                                    xl:text-xl lg:leading-7 text-textLight">
+                                                    “I
+                                                    couldn't recommend
+                                                    Payquad strongly enough. Having spent most of my career in tenant
+                                                    management
+                                                    systems and
+                                                    implementations, the Payquad team has truly stepped up to the
+                                                    challenge.
+                                                    From
+                                                    the excellent user interface to the
+                                                    knowledgeable support team that supports not just management staff,
+                                                    but
+                                                    tenants
+                                                    too. I am always impressed by the
+                                                    alacrity by which the Payquad development team attends to the needs
+                                                    of
+                                                    their
+                                                    clients.”</p>
+                                            </div>
+                                            <div class="mt-10 lg:mt-5 xl:mt-16">
+                                                <button type="button" class=" z-10 relative
+                                        py-[14px] px-[34px] font-medium text-base leading-6 text-white capitalize bg-primary rounded-[355px]
+                                        hover:bg-white hover:text-primary hover:ring-1 hover:ring-primary
+                                        ">Read
+                                                    Story</button>
+                                            </div>
+                                        </div>
+
+                                        <!-- single item -->
+                                        <div class="swiper-slide">
+                                            <div>
+                                                <h3
+                                                    class="font-medium text-2xl  lg:text-[31px] lg:leading-[36px] text-cyan capitalize">
+                                                    Mei
+                                                    Huchinson</h3>
+                                            </div>
+                                            <div class="mt-2">
+                                                <p
+                                                    class="text-xl leading-[26px] lg:text-2xl lg:leading-7 text-cyan capitalize">
+                                                    Senior Manager - Medallion Corporation
+                                                </p>
+                                            </div>
+
+                                            <div class="mt-4">
+                                                <p
+                                                    class="font-normal text-base 
+                                                    leading-6 xl:text-xl lg:leading-7 text-textLight">
+                                                    “I
+                                                    couldn't recommend
+                                                    Payquad strongly enough. Having spent most of my career in tenant
+                                                    management
+                                                    systems and
+                                                    implementations, the Payquad team has truly stepped up to the
+                                                    challenge.
+                                                    From
+                                                    the excellent user interface to the
+                                                    knowledgeable support team that supports not just management staff,
+                                                    but
+                                                    tenants
+                                                    too. I am always impressed by the
+                                                    alacrity by which the Payquad development team attends to the needs
+                                                    of
+                                                    their
+                                                    clients.”</p>
+                                            </div>
+                                            <div class="mt-10 lg:mt-5 xl:mt-16">
+                                                <button type="button" class=" z-10 relative
+                                        py-[14px] px-[34px] font-medium text-base leading-6 text-white capitalize bg-primary rounded-[355px]
+                                        hover:bg-white hover:text-primary hover:ring-1 hover:ring-primary
+                                        ">Read
+                                                    Story</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div
+                                    class="absolute -top-[230px] right-0 md:right-32 sm:right-10 lg:-left-40 lg:top-64 ">
+                                    <a href="#">
+                                        <!-- author -->
+                                        <img src="assets/img/testimonial/customer-1.png" alt="author"
+                                            class="w-[200px] h-[230px] lg:scale-75 rounded-md">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- support -->
+    <section
+        class="py-10  sm:py-14 lg:py-16 xl:py-10 relative before:absolute before:content-[''] before:top-0 before:left-0 before:h-[60%] before:w-full before:bg-azure ">
+        <div class="container">
+            <div class="grid grid-cols-12 gap-y-4 lg:gap-x-2 relative">
+                <div class="col-span-12">
+                    <div class="px-12 text-center mb-4 lg:mb-20">
+                        <div>
+                            <h2 class="font-semibold 
+                            text-[28px] leading-8
+                            lg:text-5xl lg:leading-[60px]
+                            xl:text-56 xl:leading-[64px]
+                             capitalize text-cyan">Zero hassle
+                                implementation <span class="lg:block"></span> and support</h2>
+
+                        </div>
+                        <div class="mt-4 lg:mt-5">
+                            <p class="text-base leading-6 lg:text-2xl lg:leading-8 text-textLight">
+                                We got you covered (from zero to hero in record time), so you know you are in good
+                                hands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card one -->
+                <div class="col-span-12 lg:col-span-4">
+                    <div
+                        class="bg-quarterBlue py-[30px] px-2 sm:px-5 lg:px-8 text-center rounded-md h-fit lg:min-h-[390px]">
+                        <div>
+                            <h2 class="font-semibold
+                            text-xl leading-6
+                            sm:text-2xl sm:leading-7
+                             xl:text-[31px] xl:leading-9 text-cyan capitalize">Ongoing direct tenant
+                                support</h2>
+                        </div>
+                        <div class="mt-4 lg:mt-7">
+                            <p class="text-base leading-6 sm:text-lg sm:leading-7 xl:text-xl xl:leading-7 text-cyan">You
+                                can sit back while our team handles direct
+                                tenant support for all aspects of the application. We have earned our
+                                reputation of personal support that puts tenants at ease, even while navigating critical
+                                tasks like making rent
+                                payments.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card two-->
+                <div class="col-span-12 lg:col-span-4">
+                    <div class="bg-magentaThree py-[30px] px-8 text-center rounded-md lg:min-h-[390px]">
+                        <div>
+                            <h2 class="font-semibold 
+                              text-xl leading-6
+                               sm:text-2xl sm:leading-7
+                               xl:text-[31px] xl:leading-9
+                              text-cyan capitalize">Guaranteed easy
+                                implementation</h2>
+                        </div>
+                        <div class="mt-4 lg:mt-7">
+                            <p class="
+                          text-base leading-6 sm:text-lg sm:leading-7 xl:text-xl xl:leading-7 text-cyan
+                           
+                            ">Experience the smoothest rollout ever. Our expert
+                                team will manage all aspects of rolling out Payquad from 50 to 50,000
+                                tenants. All while ensuring your workload goes down, not up.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- card three-->
+                <div class="col-span-12 lg:col-span-4">
+                    <div class="bg-magentaThree py-[30px] px-8 text-center rounded-md lg:min-h-[390px]">
+                        <div>
+                            <h2 class="font-semibold
+                             text-xl leading-6
+                              sm:text-2xl sm:leading-7
+                             xl:text-[31px] xl:leading-9 text-cyan capitalize">We are managers too
+                            </h2>
+                        </div>
+                        <div class="mt-4 xl:mt-14">
+                            <p class="
+                           text-base leading-6 sm:text-lg sm:leading-7 xl:text-xl xl:leading-7 text-cyan
+                            ">We’ve been renters and managers with decades of
+                                experience in residential property management. Our system has been
+                                tailored to your needs from the inside out. Trusted by thousands of tenants and managers
+                                every day.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12">
+                    <div class="text-center mt-6 lg:mt-12">
+                        <button type="button" class=" py-[14px] px-[34px] 
+                            font-medium text-base leading-6
+                             text-white capitalize bg-primary
+                              rounded-[355px]
+                              hover:bg-white hover:text-primary hover:ring-1 hover:ring-primary
+                              ">See
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sign up section -->
+    <section class="lg:mt-12 mb-[60px]">
+        <div class="container">
+            <div class="bg-orange bg-opacity-10 lg:py-8 pb-20 lg:pb-36 lg:px-12 rounded-[24px]">
+                <div class="grid grid-cols-12 gap-0 ">
+                    <div class="col-span-12 lg:col-span-6">
+                        <div class="py-8 px-6 lg:mt-12">
+                            <div>
+                                <h3 class="font-semibold 
+                                text-[28px] leading-8
+                                lg:text-56 lg:leading-[60px] text-cyan capitalize">Go from zero
+                                    to hero in weeks, hassle free guarantee</h3>
+                            </div>
+                            <div class="my-3 lg:my-7">
+                                <p class="text-base leading-6 lg:text-2xl lg:leading-8 text-textLight">We are experts on
+                                    every step of the
+                                    rollout, from 1 to 100’s of properties, guaranteed to be the simplest, hassle free
+                                    implementation ever..</p>
+                            </div>
+                            <div class="mt-4 lg:mt-3 ">
+                                <button type="button" class="btn btn-primary">sign up for demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-12 lg:col-span-6">
+
+                        <div class="lg:ml-14 lg:mt-16">
+                            <!-- wrapper -->
+                            <div class="relative">
+                                <div class="absolute bottom-0 lg:-left-16 -z-10">
+                                    <img src="assets/img/account/grad-bg.png" alt="bg">
+                                </div>
+                                <!-- signup form start -->
+                                <div
+                                    class="mx-2 md:ml-24 lg:ml-10 px-4 py-3 lg:py-10 
+                                    lg:px-9 bg-white bg-opacity-70 drop-shadow-accountForm 
+                                     max-w-[340px] md:max-w-[350px] lg:max-w-[400px]
+                                     rounded-3xl
+                                     
+                                     ">
+                                    <div>
+                                        <div class="text-center">
+                                            <div class="flex justify-center">
+                                                <img src="assets/img/header/logo.png" class="w-28" alt="logo">
+                                            </div>
+                                            <div class="mt-1">
+                                                <span class="text-base text-dark">Welcome to Realview Properties</span>
+                                            </div>
+                                        </div>
+                                        <form action="#"
+                                            class="mt-4 bg-white bg-opacity-60 shadow-brandShadow rounded-[13px]">
+                                            <!-- form top -->
+                                            <div class="border-b-2 border-b-border relative
+                                            before:absolute before:content-[''] before:-bottom-[1px] before:left-0 before:h-[2px]
+                                             before:w-28 before:bg-orange
+                                            ">
+                                                <div class="flex justify-between items-center px-5 py-4">
+                                                    <div class="flex items-center">
+                                                        <div
+                                                            class="w-5 h-5 ring-2  ring-offset-lightBlack mr-2 flex justify-center items-center rounded-full bg-primary">
+                                                            <span class="text-sm block text-white">1</span>
+                                                        </div>
+                                                        <div>
+                                                            <span
+                                                                class="block text-xs font-medium capitalize text-dark">complete
+                                                                creating your
+                                                                account</span>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <span
+                                                            class="inline-block text-dark text-opacity-60 font-medium">1/3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- main form -->
+                                            <div class="row  mt-2 gap-x-2 px-5 pb-5">
+                                                <div class="col-span-6">
+                                                    <label for="#"
+                                                        class="text-xs   capitalize font-medium text-dark">First
+                                                        Name</label>
+                                                    <input type="text"
+                                                        class="border-[1px] mt-1 w-full border-border py-1 rounded-md focus:outline-none pl-2 ">
+                                                </div>
+                                                <div class="col-span-6">
+                                                    <label for="#"
+                                                        class="text-xs  capitalize font-medium text-dark">Last
+                                                        Name</label>
+                                                    <input type="text"
+                                                        class="border-[1px] mt-1 w-full border-border py-1 rounded-md focus:outline-none pl-2 ">
+                                                </div>
+                                                <div class="col-span-12 ">
+                                                    <label for="#"
+                                                        class="text-xs  capitalize font-medium text-dark">Email</label>
+                                                    <input type="text"
+                                                        class="border-[1px] mt-1 w-full border-border py-1 rounded-md focus:outline-none pl-2 bg-black bg-opacity-5"
+                                                        placeholder="christanmisonary@gmail.com">
+                                                </div>
+
+                                                <div class="col-span-12 ">
+                                                    <label for="#"
+                                                        class="text-xs capitalize font-medium text-dark">Create
+                                                        Password</label>
+                                                    <div class="relative">
+                                                        <input type="text"
+                                                            class="border-[1px] mt-1 w-full border-border py-1 rounded-md focus:outline-none pl-2">
+                                                        <i
+                                                            class="fa-solid fa-eye absolute right-3 top-4 text-black text-opacity-30 text-sm"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-span-12">
+                                                    <label for="#"
+                                                        class="text-xs   capitalize font-medium text-dark">Confirm
+                                                        Password</label>
+                                                    <div class="relative">
+                                                        <input type="text"
+                                                            class="border-[1px] mt-1 w-full border-border py-1 rounded-md focus:outline-none pl-2">
+                                                        <i
+                                                            class="fa-solid fa-eye absolute right-3 top-4 text-black text-opacity-30 text-sm"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-span-12">
+                                                    <div class="flex items-center mt-3">
+                                                        <div class="mr-3">
+                                                            <input type="checkbox" checked
+                                                                class="accent-primary w-5 h-5">
+                                                        </div>
+                                                        <div>
+                                                            <p class="font-normal text-lightBlack  text-xs">I have read
+                                                                and agree to the <a href="#"
+                                                                    class="font-medium capitalize text-primary">terms of
+                                                                    service</a>
+                                                                and
+                                                                <a href="#"
+                                                                    class="font-medium capitalize text-primary">privecy
+                                                                    policy</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-span-12">
+                                                    <div class="mt-5">
+                                                        <button type="submit"
+                                                            class="w-full bg-primary text-white capitalize rounded-md font-medium py-3 text-base">continue
+                                                            <i class="fa-solid fa-arrow-right-long"></i></button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- signup form end -->
+
+                                <!-- payment modal card -->
+
+                                <div class="absolute right-4 top-72 
+                                md:right-16 lg:-right-4 lg:top-1/3
+                                xl:top-60
+                                ">
+                                    <!-- modal top -->
+                                    <div
+                                        class="min-w-[280px] md:min-w-[300px] 
+                                        lg:min-w-[330px]
+                                         bg-white  shadow-iconBoxShadow 
+                                         rounded-2xl
+                                        
+                                         ">
+                                        <div class="border-b-2 border-b-border relative
+                                                                                before:absolute before:content-[''] before:-bottom-[1px] before:left-0 before:h-[2px]
+                                                                                 before:w-[70%] before:bg-orange before:bg-opacity-80
+                                                                                ">
+                                            <div class="flex justify-between items-center px-5 py-4">
+                                                <div class="flex items-center">
+                                                    <div
+                                                        class="w-5 h-5 ring-2  ring-offset-lightBlack mr-2 flex justify-center items-center rounded-full bg-primary">
+                                                        <span class="text-sm block text-white">3</span>
+                                                    </div>
+                                                    <div>
+                                                        <span
+                                                            class="block text-base  font-medium capitalize text-cyan">Make
+                                                            a payment</span>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span
+                                                        class="inline-block text-dark text-opacity-60 font-medium">3/3</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- main  -->
+                                        <div class="flex flex-col justify-center items-center py-5 lg:py-20">
+
+                                            <div>
+                                                <img src="assets/img/account/icon.png" alt="user">
+                                            </div>
+                                            <div class="mt-8 text-center">
+                                                <h2 class="font-medium text-xl lg:text-3xl text-cyan capitalize">payment
+                                                    successful
+                                                </h2>
+                                                <span class="block text-textLight">#Receipt: 15454</span>
+                                            </div>
+                                            <div class="mt-8 lg:mt-12">
+                                                <button type="submit"
+                                                    class="w-full hover:bg-white hover:text-primary hover:ring-1 hover:ring-primary bg-primary text-white capitalize rounded-md font-medium py-3 px-8 text-base">continue
+                                                    <i class="fa-solid fa-arrow-right-long ml-4"></i></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- footer start -->
+    <footer class="bg-cyan pt-8 px-6 lg:pt-20 ">
+        <div class="container">
+            <div class="grid grid-cols-12 ">
+                <div class="col-span-12 md:col-span-6 lg:col-span-2">
+                    <div class="pr-10 md:pr-20 lg:pr-0">
+                        <div>
+                            <a href="#">
+                                <img src="assets/img/footer/white-logo.png" class="scale-95" alt="logo">
+                            </a>
+                        </div>
+                        <div class="mt-4 lg:mt-6">
+                            <p class="text-white text-base leading-6 lg:text-sm">Lorem ipsum dolor sit amet consectetur
+                                adipiscing.</p>
+                        </div>
+                        <div class="mt-6 pr-5">
+                            <!-- social links -->
+                            <ul class="flex justify-between">
+                                <li>
+                                    <div class="
+                                    w-8 h-8 rounded-full bg-white flex items-center
+                                     justify-center 
+                                     round-icon
+                                     ">
+                                        <a href="#" class="text-primary text-base">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div
+                                        class="round-icon w-8 h-8 rounded-full bg-white flex items-center justify-center ">
+                                        <a href="#" class="text-primary text-base">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div
+                                        class="round-icon w-8 h-8 rounded-full bg-white flex items-center justify-center ">
+                                        <a href="#" class="text-primary text-base">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div
+                                        class="w-8 h-8 round-icon rounded-full bg-white flex items-center justify-center ">
+                                        <a href="#" class="text-primary text-base">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-6 lg:col-span-2 mt-8 lg:mt-0">
+                    <div class="flex flex-col lg:items-center">
+                        <div class="mb-4">
+                            <h2 class="font-semibold text-xl leading-6 capitalize text-white">who we are</h2>
+                        </div>
+                        <nav class="footer-menu">
+                            <ul>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">customer stories</a></li>
+                                <li><a href="#">Why Choose Us?</a></li>
+                                <li><a href="#">Our Partners</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Careers</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-span-6 lg:col-span-2 mt-8 lg:mt-0">
+                    <div>
+                        <div class="mb-4">
+                            <h2 class="font-semibold text-xl leading-6 capitalize text-white">Solutions</h2>
+                        </div>
+                        <nav class="footer-menu">
+                            <ul>
+                                <li><a href="#">I’m a Resident</a></li>
+                                <li><a href="#">I’m a Manager</a></li>
+                                <li><a href="#">Lead to Lease CRM</a></li>
+                                <li><a href="#">Resident and Tenant Portals</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Communication</a></li>
+                                <li><a href="#">Maintenance</a></li>
+                                <li><a href="#">Payments</a></li>
+                                <li><a href="#">Resident Insurance</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-6 lg:col-span-2 mt-8 lg:mt-0">
+                    <div>
+                        <div class="mb-4">
+                            <h2 class="font-semibold text-[20px] leading-6 capitalize text-white">get in touch</h2>
+                        </div>
+                        <nav class="footer-menu">
+                            <ul>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Manager Sign Up</a></li>
+                                <li><a href="#">Resident Sign Up</a></li>
+                                <li><a href="#">Refer your Manage</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-6 lg:col-span-4 mt-9 lg:mt-0">
+                    <div>
+                        <div>
+                            <h2 class="font-semibold text-[20px] leading-6 capitalize text-white">Join Our Newsletter
+                            </h2>
+                        </div>
+                        <form action="#" class="mt-6">
+                            <div class="relative">
+                                <input type="text" placeholder="Your email address"
+                                    class="w-full text-base text-white bg-white rounded-[55px] py-[13px] px-[17px] bg-opacity-5 focus:outline-none">
+
+                                <button type="button"
+                                    class="absolute right-0 bg-orange hover:bg-opacity-70 rounded-r-[355px] py-[13px] px-8">
+                                    <span class="text-base font-medium text-white capitalize">subscribe</span>
+                                </button>
+
+                            </div>
+                        </form>
+                        <div class="mt-6">
+                            <p class="text-base leading-[26px] text-white">* Will send you weekly updates for your
+                                better
+                                finance management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bottom -->
+        <div class="container md:py-6">
+            <div class="row">
+                <div class="col-span-12">
+                    <div class="h-[1px] w-full bg-white bg-opacity-5"></div>
+                    <div class="flex justify-between items-center mt-6">
+                        <div>
+                            <p class="text-xs leading-4 md:text-base mf:leading-6 text-grayFour capitalize">&copy;2022
+                                Payquad Solutions</p>
+                        </div>
+                        <div>
+                            <a href="#"
+                                class="text-xs leading-4 md:text-base md:leading-6 text-grayFour capitalize">Terms &
+                                Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- js -->
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
